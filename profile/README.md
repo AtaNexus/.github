@@ -1,4 +1,8 @@
-# Atanexus: Engineering the Future of Human-AI Collaboration
+# Atanexus
+
+<p align="center">
+  <strong>We build the agents we want to use.</strong>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI-Agentic-blueviolet" alt="Agentic AI">
@@ -6,57 +10,53 @@
   <img src="https://img.shields.io/badge/Human--Centered-Design-orange" alt="Human-Centered Design">
 </p>
 
-At Atanexus, we're not just building AI; we're engineering a new paradigm of human-AI collaboration. We are a team of engineers, researchers, and innovators dedicated to pushing the boundaries of what's possible with agentic AI. Our mission is to create intelligent systems that don't just automate tasks, but actively collaborate with humans to solve complex problems and unlock new frontiers of creativity and productivity.
+Atanexus is a studio for AI agents that actually help. We build products we'd use ourselves — domain-specific tools where intelligence is added only where it earns its keep, and where the human stays in the loop with verifiable, transparent reasoning.
 
-## 🚀 Our Engineering Philosophy
+## 🧭 Principles
 
-We believe in a future where AI is a seamless extension of human capabilities. Our engineering philosophy is rooted in three core principles:
+- **Considered** — Not every prompt deserves an agent. We add intelligence where it maximises human benefit, and skip the rest.
+- **Adaptive** — Agents match the user's context and the task. Coaches sound like coaches; researchers reason like researchers.
+- **Collaborative** — The best agents don't replace judgement, they sharpen it. We anchor outputs to verbatim citations and keep reasoning legible.
 
-*   **Human-Centered by Design:** We build AI systems that are intuitive, understandable, and controllable. Our focus is on creating a symbiotic relationship between humans and AI, where each partner complements the other's strengths.
-*   **Adaptive Intelligence:** We leverage the power of Large Language Models (LLMs) and generative AI to create systems that learn, reason, and adapt in real-time. Our agents are not static tools; they are dynamic partners that evolve with your needs.
-*   **Collaborative Autonomy:** We engineer our agents to operate with a high degree of autonomy while always remaining in sync with their human counterparts. This balance of independence and collaboration is the cornerstone of our agentic systems.
+## 🚀 Projects
 
-## 🛠️ Our Tech Stack
+Five products live today:
 
-We are constantly experimenting with and adopting the latest technologies to build our cutting-edge AI solutions. Our current tech stack includes:
+### [CitizenReady](https://citizenready.com.au)
+AI-powered prep platform for the Australian Citizenship Test. Tackles the language barrier and the mandatory-pass requirement for values questions with a freemium model: unlimited Values practice, a free mock test, and a full 522-question bank for premium users.
 
-*   **Programming Languages:** Python, TypeScript, Go
-*   **Frameworks & Libraries:** PyTorch, TensorFlow, LangChain, Next.js
-*   **Cloud & DevOps:** Docker, Kubernetes, AWS, GCP
-*   **Databases:** PostgreSQL, Redis, Pinecone
+### [Prompt Cheat](https://chromewebstore.google.com/detail/prompt-cheat/nnhnpakgfgddpdmpdenohgplaihiecam)
+Chrome extension that centralises, organises, and one-click-inserts your prompts into ChatGPT, Claude, and Gemini. Smart search, tag-based categories, template variables (`$SELECTION`, `$CURRENT_FILE`), cloud sync via Google account, JSON import/export. Landing page at [prompt-cheat.com](https://prompt-cheat.com).
 
-## 🤖 Our Agentic AI Solutions
+### LeapEdge
+Deep-in-the-money LEAP options scanner. Ranks contracts by delta (≥ 0.70), DTE, liquidity, and spread guardrails so capital-efficient long-dated calls surface fast. FastAPI + Next.js on Firebase, with Alpha Vantage as the data provider and scheduled daily scans via Cloud Scheduler.
 
-We are building a suite of agentic AI solutions that are designed to tackle a wide range of challenges:
+### [LeapEdge Clip](https://leapedge.app)
+Paste a YouTube URL, get a structured trading-research dossier — transcript → key points → insights, each anchored to a verbatim supporting quote so you can verify before you act. Daily-digest email summarises disagreements and high-conviction calls across the videos you analysed. *Not financial advice.*
 
-*   **Conversational AI Agents:** Hyper-intelligent agents that can engage in nuanced, context-aware conversations and execute complex multi-turn dialogues.
-*   **Agentic Research Assistant:** Autonomous agents that can conduct in-depth research, synthesize information from multiple sources, and generate comprehensive reports.
-*   **Visual Understanding Agent:** Multimodal agents that can understand and interpret visual information, enabling a new class of applications in areas like image analysis and robotics.
-*   **Generative Content Creator:** Creative agents that can generate high-quality, human-like content, from code and documentation to marketing copy and artistic text.
-*   **Workflow Automation Agent:** Intelligent agents that can learn your workflows and automate repetitive tasks, freeing you up to focus on what matters most.
-*   **Personal AI Companion:** A personalized AI partner that can help you manage your life, learn new skills, and achieve your goals.
+### [MyPathOS](https://mypathos-dab27.web.app)
+AI-powered Chinese metaphysics platform. Generates personalised Bazi (八字) and Zi Wei Dou Shu life charts with decade forecasts, blending traditional divination with modern LLM-driven interpretation.
 
-## 🌐 Our Projects
+## 🛠️ Tech
 
-We are actively working on a number of open-source and commercial projects that showcase the power of our agentic AI platform:
+What we actually ship with:
 
-*   **[CitizenReady](http://atanexus.com/):** An AI-powered platform that helps aspiring citizens navigate the complex Australian citizenship process.
-*   **[Prompt Studio](http://atanexus.com/) (Coming Soon):** A sophisticated IDE for designing, testing, and deploying LLM-powered agents.
-*   **[Digital Soul](http://atanexus.com/) (Coming Soon):** An empathetic AI companion that learns your personality, memories, and values to create a truly personalized and meaningful relationship.
+- **Languages:** TypeScript, Python, Dart
+- **Frontend:** Next.js / React, Tailwind, Flutter (web + mobile)
+- **Backend:** FastAPI, Cloud Functions v2, Node.js
+- **LLM:** Google Gemini (2.5 Pro for synthesis, 3.x Flash-Lite for cheap tasks)
+- **Data:** Firestore, BigQuery
+- **Platform:** Firebase (Auth, Hosting, App Hosting, Functions), Google Cloud
+- **Payments:** Stripe Checkout + Portal with signature-verified webhooks
+- **Observability:** Sentry, Google Analytics 4
 
-## 🤝 Contributing
+## 🤝 Connect
 
-We believe in the power of open collaboration. We are always looking for talented engineers and researchers to join us in our mission to build the future of human-AI collaboration. If you are passionate about AI and want to make a real impact, we encourage you to:
-
-*   **Check out our open positions:** [Careers at Atanexus](http://atanexus.com/)
-*   **Contribute to our open-source projects:** [Atanexus on GitHub](https://github.com/AtaNexus)
-*   **Join the conversation:** [Follow us on Twitter](https://twitter.com/atanexus)
-
-## 📈 Get in Touch
-
-Ready to build the future with us?
-
-[**Get Started**](http://atanexus.com/)
+- 🌐 [atanexus.com](https://atanexus.com)
+- 💼 [LinkedIn](https://linkedin.com/company/atanexus)
+- 🐙 [GitHub](https://github.com/AtaNexus)
+- 🐦 [X / Twitter](https://twitter.com/atanexus)
+- ✉️ [ivan@atanexus.com](mailto:ivan@atanexus.com)
 
 ---
 
@@ -73,5 +73,5 @@ Ready to build the future with us?
 </p>
 
 <p align="center">
-  © 2025 Atanexus. All rights reserved.
+  © 2026 Atanexus. All rights reserved.
 </p>
